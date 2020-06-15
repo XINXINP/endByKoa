@@ -1,0 +1,11 @@
+module.exports = function(){
+var mongoose = require('mongoose');
+mongoose.connect("mongodb://127.0.0.1:27017/endByKoa");
+const db = mongoose.connection;
+db.on('error',() =>{
+    console.log("数据库已成功连接");
+})
+db.on('open',() =>{
+    console.log("数据库已成功连接")
+})
+};

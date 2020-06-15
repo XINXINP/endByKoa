@@ -1,0 +1,30 @@
+{
+  "name": "endbykoa",
+  "version": "1.0.0",
+  "description": "基于koa搭建简易http服务，用于前端小伙伴开发测试",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "]"
+  },
+  "keywords": [
+    "koa"
+  ],
+  "author": "XINXINP",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "koa": "^2.12.1",
+    "koa-router": "^9.0.1",
+    "koa-static": "^5.0.0",
+    "koa-views": "^6.2.3",
+    "koa2-cors": "^2.0.6"
+  },
+  "devDependencies": {
+    "koa-bodyparser": "^4.3.0",
+    "mongoose": "^5.9.18"
+  }
+}
